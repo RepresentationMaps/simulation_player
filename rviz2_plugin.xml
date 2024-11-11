@@ -1,0 +1,9 @@
+<library path="simulation_player">
+
+  <class name="simulation_player/SimulationPlayer"
+         type="simulation_player::SimulationPlayer"
+         base_class_type="rviz_common::Panel">
+    <description>Simulation player for the reMap framework</description>
+  </class>
+
+</library>
