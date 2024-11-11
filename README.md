@@ -10,8 +10,11 @@ Building
 Place the package in the `remap_ws/src`; then, from `remap_ws`
 
 `$ rosdep init`
+
 `$ rosdep update`
+
 `$ rosdep install --from-paths src/simulation_player`
+
 `$ colcon build --packages-select simulation_player`
 
 Usage
